@@ -1,0 +1,4 @@
+[tokenizer]
+normalized_stopwords = ['有る', 'する']
+stoptags = ['助詞', '助動詞', '補助記号', '空白', '接頭辞']
+stoptags1 = ['数詞']

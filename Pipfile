@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+typing-extensions = "*"
+toml = "*"
+sudachipy = "*"
+sudachidict-core = "*"
+pandas = "*"
+openpyxl = "*"
+jsonschema = "*"
+
+[dev-packages]
+flake8 = "*"
+ipython = "*"
+isort = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.10"
