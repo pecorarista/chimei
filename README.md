@@ -1,3 +1,6 @@
+# chimei
+文書がどの都道府県の話題について書かれているか、簡易的に判別するプログラム
+
 ```bash
 pyenv install 3.10.6
 pyenv local 3.10.6
