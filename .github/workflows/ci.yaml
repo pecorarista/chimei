@@ -25,7 +25,9 @@ jobs:
         if: steps.cache-pipenv.outputs.cache-hit != 'true'
         run: pipenv sync --dev
       - name: Download xlsx
-        run: wget https://www.soumu.go.jp/main_content/000730858.xlsx -O resources/000730858.xlsx
+        run: |
+          mkdir resources
+          wget https://www.soumu.go.jp/main_content/000730858.xlsx -O resources/000730858.xlsx
       - name: Lint with Flake8
         run: pipenv run flake8
       - name: isort
